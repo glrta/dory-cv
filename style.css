@@ -1,20 +1,25 @@
 /*goal: make it like a pdf */
 
 html {
-    background-color: #000;
+    background-color:#000;
 }
 
 body {
+    width: 700px;
+    height: 940px;
+    margin: 0 auto;
+    border: 20px solid #fff;
+}
+
+div {
     font-family: 'Abel', sans-serif;
     font-size: 21px;
-    width: 650px;
-    height: 900px;
+    width: 640px;
+    height: 880px;
     background-color: #fff;
     padding: 30px;
-    margin: 0 auto;
+    border: 2px solid #000;
 }
-/* wanted to do a different framing... couldn't get it right */
-
 h1 {
     font-family: 'Luckiest Guy', cursive;
     font-size: 200px;
