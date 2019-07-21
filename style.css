@@ -1,24 +1,22 @@
-/*goal: make it like a pdf */
+/*goal: make a CV like a pdf file, stactic */
 
 html {
     background-color:#000;
 }
-
-body {
+body { /*box behind*/
     width: 700px;
     height: 940px;
     margin: 0 auto;
-    border: 20px solid #fff;
-}
-
-div {
+    border: 15px solid #fff;
     font-family: 'Abel', sans-serif;
     font-size: 21px;
+}
+div { /*inner box*/
     width: 640px;
     height: 880px;
     background-color: #fff;
     padding: 30px;
-    border: 2px solid #000;
+    outline: solid #000;
 }
 h1 {
     font-family: 'Luckiest Guy', cursive;
@@ -46,12 +44,12 @@ img {
 }
 main {
     float: left;
-    width: 300px;
+    width: 350px;
     margin-left: 15px;
 }
 aside {
     float: right;
-    width: 250px;
+    width: 230px;
 }
 .experience, .education {
     font-family: 'Luckiest Guy', cursive;
