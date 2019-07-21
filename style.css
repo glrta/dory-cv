@@ -5,18 +5,18 @@ html {
 }
 body { /*box behind*/
     width: 700px;
-    height: 940px;
-    margin: 0 auto;
-    border: 15px solid #fff;
+    height: 930px;
+    background: #fff;
     font-family: 'Abel', sans-serif;
     font-size: 21px;
+    margin: 0 auto;
+    padding: 20px;
 }
-div { /*inner box*/
-    width: 640px;
-    height: 880px;
+.content { /*inner box*/
     background-color: #fff;
     padding: 30px;
     outline: solid #000;
+    height: 860px;
 }
 h1 {
     font-family: 'Luckiest Guy', cursive;
@@ -30,10 +30,9 @@ img {
     float: right; 
     margin-top: 30px;
 }
-
 .address {
     font-size: 19px;
-    font-weight: bolder;
+    font-weight: bold;
     margin: 0;
     margin-left: 85px;
 }
@@ -44,12 +43,12 @@ img {
 }
 main {
     float: left;
-    width: 350px;
-    margin-left: 15px;
+    width: 370px;
+    margin-left: 10px;
 }
 aside {
     float: right;
-    width: 230px;
+    width: 250px;
 }
 .experience, .education {
     font-family: 'Luckiest Guy', cursive;
@@ -67,18 +66,18 @@ aside {
 }
 .where, .description { 
     margin-top: .5px;
-    /*it seems 'description' under EDUCATION isn't picking up...*/
 }
 .otherskills {
     margin-bottom: -20px;
-    margin-top: 35px;
+    margin-top: 25px;
 }
 a {
     color: blue;
 }
-footer {
-    width: inherit;
+.proud{
+    clear: both; 
     text-align: center;
-    position: absolute;
-    top: 820px; /* stops it moving */
+    position: relative;
+    top: 40px; 
+    margin: 0 auto;
 }
