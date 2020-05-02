@@ -1,6 +1,9 @@
 # Dory CV
+
+![website screenshot](screenshot.png)
+
 Simple CV for Dory from Finding Nemo.
 
-## Objective
+## Description
 My very first project learning simple html and css. 
-Built as precourse project prior to starting Front-end Web Development course at General Assembly.
+Built during week 1 at Front-end Web Development course at General Assembly.
